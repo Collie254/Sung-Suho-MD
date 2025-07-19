@@ -13,7 +13,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "malvin~5GVQRD7T#PSCrWCvaq3cz_DrMKyKRVm_fHKubcFV5aFOxVjQgXn0", // Your bot's session ID (keep secure)
+  SESSION_ID: process.env.SESSION_ID || "drakonis~sy8UTQYC#SESCZEHd7NjVfdJnpBAu7lHvSrq4jAslFGvae6gWxSY", // Your bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || ",", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
@@ -48,8 +48,8 @@ module.exports = {
   AUTO_STICKER: process.env.AUTO_STICKER || "false", // Auto-send stickers
 
   // ===== MEDIA & AUTOMATION =====
-  AUTO_RECORDING: process.env.AUTO_RECORDING || "false", // Auto-record voice notes
-  AUTO_TYPING: process.env.AUTO_TYPING || "false", // Show typing indicator
+  AUTO_RECORDING: process.env.AUTO_RECORDING || "true", // Auto-record voice notes
+  AUTO_TYPING: process.env.AUTO_TYPING || "true", // Show typing indicator
   MENTION_REPLY: process.env.MENTION_REPLY || "false", // Reply when mentioned
   MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/qumhu4.jpg", // Menu image URL
 
